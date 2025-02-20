@@ -1,0 +1,25 @@
+<OrderInfo xmlns="https://www.example.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.example.com activity-order.xsd">
+    <OrderId>10431880</OrderId>
+    <OrderDateTime>2025-02-13T12:30:00Z</OrderDateTime>
+    <OrderItems>
+        <OrderItem ProductID="542687" Sequence="1">
+            <Name>ItemBox-05280 &amp; ItemBox-05281</Name>
+            <Quantity>1</Quantity>
+            <UnitPrice Currency="PHP">125.50</UnitPrice>
+            <SalePrice Currency="PHP">125.50</SalePrice>
+        </OrderItem>
+        <OrderItem ProductID="468231" Sequence="2">
+            <Name>ItemBox-33521</Name>
+            <Quantity>4</Quantity>
+            <UnitPrice Currency="PHP">25.00</UnitPrice>
+            <SalePrice Currency="PHP">100.00</SalePrice>
+        </OrderItem>
+    </OrderItems>
+    <Shipping>
+        <Carrier>SPX</Carrier>
+        <Fee Currency="PHP">50.00</Fee>
+    </Shipping>
+    <TotalAmount Currency="PHP">275.50</TotalAmount>
+</OrderInfo>

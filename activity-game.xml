@@ -1,0 +1,26 @@
+<Games xmlns="https://www.example.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.example.com activity-game.xsd">
+    <Game>
+        <Id>1295660</Id>
+        <Title>Sid Meier's Civilization VII</Title>
+        <ReleaseDate>11 Feb, 2025</ReleaseDate>
+        <Rating>
+            <Status>Mixed</Status>
+            <ReviewSummary>51% of the 14,037 user reviews for this game are positive.</ReviewSummary>
+        </Rating>
+        <Price isFree="false">
+            <ActualPrice currency="PHP">2,920.00</ActualPrice>
+            <CurrentPrice currency="PHP">2,920.00</CurrentPrice>
+            <OnSale>false</OnSale>
+        </Price>
+        <Platform>Windows</Platform>
+        <Platform>macOS</Platform>
+        <Platform>SteamOS + Linux</Platform>
+        <Categories>
+            <Category>Turn Based</Category>
+            <Category>Strategy</Category>
+            <Category>Historical</Category>
+        </Categories>
+    </Game>
+</Games>
